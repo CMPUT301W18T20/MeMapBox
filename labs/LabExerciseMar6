@@ -1,0 +1,15 @@
+Question 1: MVC - The user changes the model through the view. The controller is hidden from the user, so the user can only access it through the view. The view sends information to the controller which then updates, or makes changes to, the model.
+
+Question 2: MVC - The view is automatically updated when the model is changed through a "blackbox" back-end process. The user is not aware of this process or how at least of how it happens. This update is achieved through the use of adapters, interfaces, and other back-end operations.
+
+Question 3: MVC UML -  An observer is an interface that is used to access an observable object. So, the observer is the view and the observable is the model.
+
+Question 4: Singleton - Instantiating a singleton class for a second time will throw an exception.
+
+Question 5: Command - The command is passed from the receiver to the concrete command, which uses the command, which is part of the invoker. The invoker executes the command.
+
+Question 6: Command - The RemoteControl class is the invoker. Comparing this description to the UML in an earlier slide, I can see that TurnOn is a ConcreteCommand because it implements the Command interface. RemoteControl is the thing that makes the other things happen; it tells LightBulb to invoke one of its commands.
+
+Question 7: Command - The LightBulb is the receiver because it has commands and methods. When comparing it to the UML, its role most closely aligns with that of the receiver.
+
+Question 8: Command - The LightBulb turns on in the line r.buttonPress(t)
